@@ -1,0 +1,33 @@
+{
+  "Employee-credentials": {
+    "valid": {
+      "firstName": "souad",
+      "middleName": "elsayed",
+      "lastName": "habib",
+      "employeeId": "02356"
+    },
+    "invalid": {
+      "firstName": "a",
+      "lastName": "ahmed",
+      "employeeId": "0370",
+      "exixtID": "02356"
+    }
+  },
+  "messages": {
+    "success": "Record Found",
+    "error": "No Records Found",
+    "sucesssADD": "Successfully",
+    "failure": "No",
+    "Required": "Required",
+    "invalidID": "Employee Id already exists"
+  },
+  "searchForEmployee": {
+    "valid": {
+      "Name": "Ranga",
+      "employeeId": "0277"
+    },
+    "invalid": {
+      "firstName": "Ahmed"
+    }
+  }
+}

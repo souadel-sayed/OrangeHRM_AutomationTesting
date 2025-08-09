@@ -1,0 +1,38 @@
+{
+  "Username": "ExistingUserte66",
+  "Role": "ESS",
+  "Password": "admin123",
+  "Status": "Enabled",
+  "Congresswoman": "admin123",
+  "EmployeeName": "test",
+  "InconfirmPassword": "admin",
+  "messages": {
+    "successMessage": "Successfully Saved",
+    "ExistUserMessage": "Should be at least 5 characters",
+    "EmptyField": "Required",
+    "ConfirmPasswordError": "Passwords do not match"
+  },
+  "searchAdminUser": {
+    "Username": "Admin",
+    "UserRole": "Admin",
+    "EmployeeName": "So",
+    "Status": "Enabled"
+  },
+  "searchAdminUserError": {
+    "Username": "Ahmed",
+    "UserRole": "ESS",
+    "EmployeeName": "So",
+    "Status": "Enabled"
+  },
+  "messagesforSearch": {
+    "successMessage": "Record Found",
+    "NotfoundMessage": "No Records Found"
+  },
+  "MessageForDelete": {
+    "successMessage": "Successfully Deleted"
+  },
+  "EditUser": {
+    "sucessmessage": "Successfully Updated",
+    "Status": "Enabled"
+  }
+}

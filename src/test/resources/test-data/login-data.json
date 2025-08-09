@@ -1,0 +1,8 @@
+{
+  "name": "Admin",
+  "password": "admin123",
+  "invalidpassword": "123456",
+  "messages": {
+    "error": "Invalid credentials"
+  }
+}
