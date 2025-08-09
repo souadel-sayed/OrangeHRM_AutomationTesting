@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeHRM Test Suite" verbose="1">
+
+    <listeners>
+        <!-- This listener is for Allure reporting integration -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+        <!-- Assuming you have a custom listener for logging or other purposes -->
+        <listener class-name="Orange.listeners.TestNGListeners"/>
+    </listeners>
+
+    <test name="UI Tests">
+        <classes>
+            <!-- Login Test Class -->
+            <class name="tests.ui.LoginTest"/>
+            <!-- Admin Test Class -->
+            <class name="tests.ui.AdminTest"/>
+            <!-- PIM Test Class -->
+            <class name="tests.ui.PIMTest"/>
+            <!-- Add other UI test classes here as needed -->
+            <class name="tests.ui.TimeTest"/>
+
+        </classes>
+    </test>
+
+
+</suite>
